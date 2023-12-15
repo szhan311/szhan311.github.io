@@ -5,6 +5,10 @@
   <head>
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz0rHRq6XFCpKnClDh6Zl3kaK6v8RGpPnMDP4sL+gJDB7evECpRJY2yWV4bH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-zc1ShtlcbXe/n4nVBcF7Cm0I6z3mRgIyzzhHTTg+qJjUnfu7nORF+J6x2R9O3tFv" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/markdown-it-katex@2.0.1/dist/index.js"></script>
+
   {%- endif -%}
   {% include head.html %}
   </head>
