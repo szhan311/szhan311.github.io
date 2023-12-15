@@ -3,7 +3,7 @@ layout: post
 title:  Consistency models
 date: 2023-12-10 20:23:00
 description: 
-tags: Literature-notes
+tags: Literature-review
 categories: Diffusion-models
 tikzjax: true
 ---

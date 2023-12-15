@@ -3,7 +3,7 @@ layout: post
 title:  A Computational Framework For Solving Wassertein Lagrangian Flows
 date: 2023-12-13 20:36:00
 description: 
-tags: Literature-notes
+tags: Literature-review
 categories: Optimal-transport
 tikzjax: true
 ---

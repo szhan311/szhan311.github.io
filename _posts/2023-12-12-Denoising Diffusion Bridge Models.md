@@ -3,7 +3,7 @@ layout: post
 title:  Denoising Diffusion Bridge Models
 date: 2023-12-12 19:51:00
 description: 
-tags: Literature-notes
+tags: Literature-review
 categories: Diffusion-models
 tikzjax: true
 ---

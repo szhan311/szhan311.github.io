@@ -3,7 +3,7 @@ layout: post
 title:  Action matching
 date: 2023-12-11 19:23:00
 description: 
-tags: Literature-notes
+tags: Literature-review
 categories: Optimal-transport
 tikzjax: true
 ---

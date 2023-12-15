@@ -3,7 +3,7 @@ layout: post
 title:  Sampling Methods
 date: 2023-12-02 20:30:00
 description: 
-tags: Literature-notes
+tags: Literature-review
 categories: Diffusion-models
 tikzjax: true
 ---
