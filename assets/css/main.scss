@@ -33,7 +33,7 @@ $max-content-width: {{ site.max_width }};
 }
 
 .gallery-item {
-  flex-basis: calc(150% - 10px); /* Adjust margin or padding accordingly */
+  flex-basis: calc(130% - 10px); /* Adjust margin or padding accordingly */
   margin: 5px; /* Example margin */
 }
 
