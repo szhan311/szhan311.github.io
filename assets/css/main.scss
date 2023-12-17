@@ -19,34 +19,79 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/regular"
 ;
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
 
 .gallery-item img {
-  max-width: 130%;
+  width: 100%;
   height: auto;
-  display: block; /* Removes extra space below the image */
-}
-
-.gallery-item {
-  flex-basis: calc(130% - 10px); /* Adjust margin or padding accordingly */
-  margin: 5px; /* Example margin */
-}
-
-.gallery {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px; /* Adjust the gap between images */
+  display: block;
 }
 
 
-@media (max-width: 600px) {
-  .gallery {
-      grid-template-columns: repeat(3, 1fr); /* 2 columns for smaller screens */
-  }
-  /* For Flexbox, adjust flex-basis accordingly */
+.gallery-item:hover img {
+  transform: scale(1.2); /* Adjust scale value to control zoom level */
 }
+
+.modal {
+  display: flex; /* Hidden by default */
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+// .modal {
+//   display: none; /* Hidden by default */
+//   position: fixed; /* Stay in place */
+//   z-index: 1000; /* Sit on top */
+//   left: 0;
+//   top: 0;
+//   width: 100%; /* Full width */
+//   height: 100%; /* Full height */
+//   overflow: auto; /* Enable scroll if needed */
+//   background-color: rgb(0,0,0); /* Fallback color */
+//   background-color: rgba(0,0,0,0.6); /* Black with opacity */
+//   align-items: center; /* Centers content vertically */
+//   justify-content: center; /* Centers content horizontally */
+// }
+
+.modal-content {
+  display: block;
+  width: 75%; /* Adjust width as needed */
+  max-width: 1200px; /* Maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
