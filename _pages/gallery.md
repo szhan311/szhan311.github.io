@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /gallery/
-title: Photo gallery
+title: photo gallery
 description: Photographic works
 nav: true
 nav_order: 8
