@@ -33,7 +33,7 @@ var captionText = document.getElementById('caption');
 // Open the modal
 document.querySelector('.gallery').addEventListener('click', function(event) {
     if (event.target.tagName === 'IMG') {
-        modal.style.display = 'flex';
+        modal.style.display = 'block';
         modalImg.src = event.target.src;
         captionText.innerHTML = event.target.alt;
     }
