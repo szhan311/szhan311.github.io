@@ -30,28 +30,13 @@ $max-content-width: {{ site.max_width }};
   width: 100%;
   height: auto;
   display: block;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
 }
-
 
 .gallery-item:hover img {
   transform: scale(1.2); /* Adjust scale value to control zoom level */
+  transform-origin: center center; /* Center the transformation */
 }
-
-// .modal {
-//   display: flex; /* Hidden by default */
-//   align-items: center; /* Vertical alignment */
-//   justify-content: center; /* Horizontal alignment */
-//   position: fixed; /* Stay in place */
-//   z-index: 1000; /* Sit on top */
-//   padding-top: 100px; /* Location of the box */
-//   left: 0;
-//   top: 0;
-//   width: 100%; /* Full width */
-//   height: 100%; /* Full height */
-//   overflow: auto; /* Enable scroll if needed */
-//   background-color: rgb(0,0,0); /* Fallback color */
-//   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-// }
 
 
 .modal {
@@ -71,7 +56,7 @@ $max-content-width: {{ site.max_width }};
 
 .modal-content {
   display: block;
-  width: 75%; /* Adjust width as needed */
+  width: 80%; /* Adjust width as needed */
   max-width: 1200px; /* Maximum width */
   height: auto; /* Maintain aspect ratio */
 }

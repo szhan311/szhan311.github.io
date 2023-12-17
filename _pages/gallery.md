@@ -11,7 +11,7 @@ nav_order: 8
     {% for image in site.static_files %}
         {% if image.path contains 'assets/photos/' %}
             <div class="gallery-item">
-                <img src="{{ image.path }}" alt=none>
+                <img src="{{ image.path }}">
             </div>
         {% endif %}
     {% endfor %}
