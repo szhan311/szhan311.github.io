@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: 
+  image: prof_pic.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -19,4 +19,5 @@ social: true  # includes social icons at the bottom of the page
 PhD student in Electrical and Computer Engineering, UC Riverside. 
 
 I received my Master's degree in Control Science and Engineering in Xi'an Jiaotong University, 2022. I obtained my Bacherlor's degree in Automation in Xi'an Jiaotong University, 2019. I'm interested in (score-based) diffusion models, optimal transport, learning for dynamic and control, stochastic optimization of EV schedule and so on.
+
 
