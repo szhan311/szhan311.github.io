@@ -18,3 +18,35 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.gallery-item img {
+  max-width: 130%;
+  height: auto;
+  display: block; /* Removes extra space below the image */
+}
+
+.gallery-item {
+  flex-basis: calc(150% - 10px); /* Adjust margin or padding accordingly */
+  margin: 5px; /* Example margin */
+}
+
+.gallery {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* Adjust the gap between images */
+}
+
+
+@media (max-width: 600px) {
+  .gallery {
+      grid-template-columns: repeat(3, 1fr); /* 2 columns for smaller screens */
+  }
+  /* For Flexbox, adjust flex-basis accordingly */
+}
+
