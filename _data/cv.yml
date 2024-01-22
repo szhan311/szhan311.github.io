@@ -2,96 +2,102 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Shaorong Zhang
     - name: Date of Birth
-      value: 14th March 1879
+      value: 12-08-1996
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of California, Riverside
+      year: "2022 - present"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Electrical and Computer Engineering
+        - "GPA : 3.9/4"
+        - title: Major Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Stochastic Processes, Mathematical Methods for Electrical Engineering, Computational Learning, Optimization for Machine Learning, Information Theory, Electric Power Distribution Systems, Partial Differential Equations, etc.
+            # - Sub-description 2.
+    - title: Master
+      institution: Xi'an Jiaotong University, China
+      year: "2019 - 2022"
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Control Science and Engineering
+        - "GPA: 3.57/4"
+        - title: Major Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Mathematical Statistics, Stochastic Process, Linear System Theory, Multi-sensor Information Fusion, System Identification, Advanced Graph Theory, Big Data and Deep Learning, etc.
+    - title: Bachelor
+      institution: Xi'an Jiaotong University, China
+      year: "2015 - 2019"
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+        - Automation
+        - "GPA: 3.5/4"
+        - title: Major Courses
+          contents:
+            - Mathematical Analysis, Linear Algebra and Analytic Geometry, Probability Theory and Mathematical Statistics, Data Structures and Algorithms, Signals and Systems, Operations Research, Digital Signal Processing, Computer Principle and Embeeded System Design, Digital Image and Video Processing, Pattern Recognition, Numerical Analysis and Algorithms, Introduction to Artifical Intelligence, etc.
+- title: Research Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Generating Synthetic Load Data with Physics-informed Time-series Diffusion model
+      institution: 
+      year: 2023 - Present
+      description:
+        - The physical model was decompose to a deterministic process, which is further embedded into conditional diffusion model for mixed load signal generation. The numerical study results demonstrate the superior generative quality.
+        
+    - title: Data-Driven Control, Optimization in Power Distribution Networks
+      institution: 
+      year: 2022 - Present
+      description:
+        - "We provided a literature survey of recent data driven optimization and decision-making algorithms in power distribution networks. We summarized the related algorithms and divide those algorithms into four categories: mathematical optimization, learning-assisted optimization, physics-informed learning and end-to-end learning."
 
-- title: Honors and Awards
+    - title: Learning Power System Dynamics with Neural Ordinary Differential Equations
+      institution:
+      year: 2023
+      description:
+        - We propose a novel framework that employs Neural Ordinary Differential Equations (ODEs) to learn complex power system dynamics from noisy measurements. The numerical study results demonstrated the superior accuracy of the proposed model over the baseline neural network (NN) and its robustness against measurement noise. Furthermore, the analytics results verified the generalization performance across different fault durations and locations.
+
+    - title: Physics-informed Learning for Power System Dynamics
+      institution: 
+      year: 2022
+      description: We proposed a Nearly-Hamiltonian neural network to predict transient trajectories and dynamic parameters of the power system by embedding energy conservation laws in the proposed neural network architecture. The numerical study results on the single machine infinite bus system show that the proposed model produces accurate system trajectories and damping coefficient predictions.
+
+    # - title: Associate Professor of Theoretical Physics
+    #   institution: University of Zurich, Zurich, Switzerland
+    #   year: 1909 - 1911
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Publications
   type: time_table
   contents:
-    - year: 1921
+    - year: 
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - Shaorong Zhang, Nanpeng Yu, Patricia Hidalgo-Gonzalez, et al. "Data-Driven Control, Optimization, and Decision-making in Power Distribution Networks," under review, 2024.
+        - Shaorong Zhang, Koji Yamashita, and Nanpeng Yu, "Learning Power System Dynamics with Neural Ordinary Differential Equations," under review, 2023.
+        - Shaorong Zhang and Nanpeng Yu, " Learning Power System Dynamics with Nearly-Hamiltonian Neural Networks," IEEE PES General Meeting, 2023.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

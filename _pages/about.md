@@ -18,6 +18,12 @@ social: true  # includes social icons at the bottom of the page
 
 PhD student in Electrical and Computer Engineering, UC Riverside. 
 
-I received my Master's degree in Control Science and Engineering in Xi'an Jiaotong University, 2022. I obtained my Bacherlor's degree in Automation in Xi'an Jiaotong University, 2019. I'm interested in (score-based) diffusion models, optimal transport, learning for dynamic and control, stochastic optimization of EV schedule and so on.
+I received my Master's degree in Control Science and Engineering in Xi'an Jiaotong University, 2022, obtained my Bacherlor's degree in Automation in Xi'an Jiaotong University, 2019. 
+
+My research interest includes (score-based) diffusion models; data-driven control, optimization and decision-making in power distribution networks; physics-informed neural networks and so on.
+
+see my <a href="https://szhan311.github.io/cv/">CV</a> for details. 
+
+
 
 
