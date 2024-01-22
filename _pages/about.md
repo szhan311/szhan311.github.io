@@ -22,7 +22,7 @@ I received my Master's degree in Control Science and Engineering in Xi'an Jiaoto
 
 My research interest includes (score-based) diffusion models; data-driven control, optimization and decision-making in power distribution networks; physics-informed neural networks and so on.
 
-see my <a href="https://szhan311.github.io/cv/">CV</a> for details. 
+See my <a href="https://szhan311.github.io/cv/">CV</a> for details. 
 
 
 
