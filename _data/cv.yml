@@ -42,15 +42,21 @@
 - title: Research Projects
   type: time_table
   contents:
+  - title: Generating Synthetic Load Data with Physics-informed Time-series Diffusion model
+      institution: 
+      year: 2023 - 2024
+      description:
+        - The physical model was decompose to a deterministic process, which is further embedded into conditional diffusion model for mixed load signal generation. The numerical study results demonstrate the superior generative quality.
+        
     - title: Generating Synthetic Load Data with Physics-informed Time-series Diffusion model
       institution: 
-      year: 2023 - Present
+      year: 2023 - 2024
       description:
         - The physical model was decompose to a deterministic process, which is further embedded into conditional diffusion model for mixed load signal generation. The numerical study results demonstrate the superior generative quality.
         
     - title: Data-Driven Control, Optimization in Power Distribution Networks
       institution: 
-      year: 2022 - Present
+      year: 2022 - 2024
       description:
         - "We provided a literature survey of recent data driven optimization and decision-making algorithms in power distribution networks. We summarized the related algorithms and divide those algorithms into four categories: mathematical optimization, learning-assisted optimization, physics-informed learning and end-to-end learning."
 
@@ -81,8 +87,9 @@
   contents:
     - year: 
       items: 
-        - Shaorong Zhang, Nanpeng Yu, Patricia Hidalgo-Gonzalez, et al. "Data-Driven Control, Optimization, and Decision-making in Power Distribution Networks," under review, 2024.
-        - Shaorong Zhang, Koji Yamashita, and Nanpeng Yu, "Learning Power System Dynamics with Neural Ordinary Differential Equations," under review, 2023.
+        - Shaorong Zhang, Yuanbin Cheng, Nanpeng Yu, Generating Synthetic Net Load Data with Physics-informed Diffusion Model, under review, 2024.
+        - Shaorong Zhang, Nanpeng Yu, Patricia Hidalgo-Gonzalez, et al. "Data-Driven Control, Optimization, and Decision-making in Active Distribution Networks," under review, 2024.
+        - Shaorong Zhang, Koji Yamashita, and Nanpeng Yu, "Learning Power System Dynamics with Neural Ordinary Differential Equations," IEEE PES General Meeting, 2024.
         - Shaorong Zhang and Nanpeng Yu, " Learning Power System Dynamics with Nearly-Hamiltonian Neural Networks," IEEE PES General Meeting, 2023.
 
 # - title: Academic Interests
