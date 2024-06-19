@@ -42,12 +42,6 @@
 - title: Research Projects
   type: time_table
   contents:
-  - title: Generating Synthetic Load Data with Physics-informed Time-series Diffusion model
-      institution: 
-      year: 2023 - 2024
-      description:
-        - The physical model was decompose to a deterministic process, which is further embedded into conditional diffusion model for mixed load signal generation. The numerical study results demonstrate the superior generative quality.
-        
     - title: Generating Synthetic Load Data with Physics-informed Time-series Diffusion model
       institution: 
       year: 2023 - 2024
