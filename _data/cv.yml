@@ -42,6 +42,12 @@
 - title: Research Projects
   type: time_table
   contents:
+    - title: Exploring the Design Space of Diffusion Bridge Models via Stochasticity Control
+      institution: 
+      year: 2024
+      description:
+        - Diffusion bridge models effectively facilitate image-to-image (I2I) translation by connecting two distributions. However, existing methods overlook the impact of noise in sampling SDEs, transition kernel, and the base distribution on sampling efficiency, image quality and diversity. To address this gap, we propose the Stochasticity-controlled Diffusion Bridge (SDB), a novel theoretical framework that extends the design space of diffusion bridges, and provides strategies to mitigate singularities during both training and sampling. By controlling stochasticity in the sampling SDEs, our sampler achieves speeds up to $5 \times$ faster than the baseline, while also producing lower FID scores. After training, SDB sets new benchmarks in image quality and sampling efficiency via managing stochasticity within the transition kernel. Furthermore, introducing stochasticity into the base distribution significantly improves image diversity, as quantified by a newly introduced metric. 
+    
     - title: Generating Synthetic Load Data with Physics-informed Time-series Diffusion model
       institution: 
       year: 2023 - 2024
@@ -81,7 +87,8 @@
   contents:
     - year: 
       items: 
-        - Shaorong Zhang, Yuanbin Cheng, Nanpeng Yu, Generating Synthetic Net Load Data with Physics-informed Diffusion Model, under review, 2024.
+        - Shaorong Zhang, Yuanbin Cheng, Xianghao Kong, and Greg Ver Steeg, "Exploring the Design Space of Diffusion Bridge Models via Stochasticity Control", <a href="https://arxiv.org/abs/2410.21553">https://arxiv.org/abs/2410.21553</a>, under review, 2024.
+        - Shaorong Zhang, Yuanbin Cheng, Nanpeng Yu, Generating Synthetic Net Load Data with Physics-informed Diffusion Model, <a href="https://arxiv.org/abs/2406.01913">https://arxiv.org/abs/2406.01913</a>, under review, 2024.
         - Shaorong Zhang, Nanpeng Yu, Patricia Hidalgo-Gonzalez, et al. "Data-Driven Control, Optimization, and Decision-making in Active Distribution Networks," under review, 2024.
         - Shaorong Zhang, Koji Yamashita, and Nanpeng Yu, "Learning Power System Dynamics with Neural Ordinary Differential Equations," IEEE PES General Meeting, 2024.
         - Shaorong Zhang and Nanpeng Yu, " Learning Power System Dynamics with Nearly-Hamiltonian Neural Networks," IEEE PES General Meeting, 2023.
