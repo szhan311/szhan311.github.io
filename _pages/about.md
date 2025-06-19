@@ -20,7 +20,10 @@ PhD student in Electrical and Computer Engineering, UC Riverside, advised by <a 
 
 I received my Master's degree in Control Science and Engineering in Xi'an Jiaotong University, 2022, obtained my Bacherlor's degree in Automation in Xi'an Jiaotong University, 2019. 
 
-My research interest includes (score-based) diffusion models; diffusion bridge models;  data-driven control; optimization and decision-making in power distribution networks; physics-informed neural networks and so on.
+My research interest includes inverse problems, (score-based) diffusion models; diffusion bridge models;  data-driven control; optimization and decision-making in power distribution networks; physics-informed neural networks and so on.
+
+Our recent work on <a href="https://arxiv.org/abs/2506.11893">"Measurement-aligned Flow for Inverse Problem
+"</a> achieved the state-of-the-art performance across a range of tasks, especially for inverse problems with unknown or non-Gaussian noise.
 
 Our recent work on <a href="https://arxiv.org/abs/2410.21553">"Stochasticity-controlled diffusion bridge"</a> achieves better sampling efficiency, image quality and diversity.
 
