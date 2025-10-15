@@ -1,0 +1,24 @@
+{% assign entry = include.entry %}
+<li class="bibliography-item">
+
+  {%- if entry.url -%}
+    <a href="{{ entry.url }}" target="_blank" rel="noopener">“{{ entry.title }}”</a>
+  {%- else -%}
+    “{{ entry.title }}”
+  {%- endif -%}
+
+  {%- if entry.author -%}
+    . {{ entry.author }}
+  {%- endif -%}
+
+  {%- if entry.journal -%}
+    , <em>{{ entry.journal }}</em>
+  {%- elsif entry.booktitle -%}
+    , <em>{{ entry.booktitle }}</em>
+  {%- endif -%}
+
+  {%- if entry.year -%}
+    , {{ entry.year }}
+  {%- endif -%}
+
+</li>

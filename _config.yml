@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 # jekyll serve
-title: Shaorong Zhang (张少荣) # the website title (if blank, full name will be used instead)
+title: Shaorong Zhang # the website title (if blank, full name will be used instead)
 first_name: Shaorong
 middle_name: R.
 last_name: Zhang
@@ -70,9 +70,9 @@ github_username: szhan311 # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: shaorong-zhang-366183212 # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: sHCL-1sAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
