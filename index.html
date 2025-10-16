@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shaorong Zhang — Portfolio</title>
+  <meta name="description" content="Personal academic homepage" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <div class="title">
+        <h1>Shaorong Zhang</h1>
+        <p class="subtitle">PhD Student · Electrical & Computer Engineering</p>
+        <p class="meta">
+          <span>University of California Riverside</span>
+          <span>·</span>
+          <a href="assets/pdf/CV.pdf" target="_blank" rel="noopener">CV</a>
+          <span>·</span>
+          <a href="mailto:szhan311@ucr.edu">szhan311@ucr.edu</a>
+          <span>·</span>
+          <a href="https://github.com/szhan311" target="_blank" rel="noopener">GitHub</a>
+          <span>·</span>
+          <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">Google Scholar</a>
+        </p>
+      </div>
+      <div class="avatar">
+        <img src="assets/img/profile.jpg" alt="Shaorong Zhang" />
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a 4th year PhD student in Electrical and Computer Engineering, UC Riverside, advised by 
+        <a href="https://apparenthorizons.com/">Greg Ver Steeg</a> from 2024. 
+        I received my Master's degree in Control Science and Engineering from Xi'an Jiaotong University in 2022 
+        and obtained my Bachelor's degree in Automation from Xi'an Jiaotong University in 2019. 
+        See my <a href="assets/pdf/CV.pdf">CV</a> for details. 
+      </p>
+      <p>
+        My research interests include inverse problems, (score-based) diffusion models, diffusion bridge models, and alignment.
+      </p>
+    </section>
+
+    <section>
+      <h2>News</h2>
+      <ul class="news">
+        <li><span class="date">2025-09</span> Our paper "Exploring the Design Space of Diffusion Bridge Models" was accepted by NeurIPS 2025.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Selected Publications</h2>
+      <ol class="pubs">
+
+        <li>
+          <span class="pub-title"><a href="https://arxiv.org/abs/2510.07343" target="_blank">Local MAP Sampling for Diffusion Models</a></span><br>
+          <span class="authors">Shaorong Zhang, Rob Brekelmans, Greg Ver Steeg</span><br>
+          <span class="venue">Under review, 2025</span>
+        </li>
+
+        <li>
+          <span class="pub-title"><a href="https://arxiv.org/abs/2506.11893" target="_blank">Measurement-Aligned Flow for Inverse Problems</a></span><br>
+          <span class="authors">Shaorong Zhang, Rob Brekelmans, Yunshu Wu, Greg Ver Steeg</span><br>
+          <span class="venue">Under review, 2025</span>
+        </li>
+
+        <li>
+          <span class="pub-title"><a href="https://arxiv.org/abs/2410.21553" target="_blank">Exploring the Design Space of Diffusion Bridge Models</a></span><br>
+          <span class="authors">Shaorong Zhang, Yuanbin Cheng, Greg Ver Steeg</span><br>
+          <span class="venue">NeurIPS 2025</span>
+        </li>
+
+        <li>
+          <span class="pub-title"><a href="https://arxiv.org/abs/2504.15267" target="_blank">Diffusion Bridge Models for 3D Medical Image Translation</a></span><br>
+          <span class="authors">Shaorong Zhang, Tamoghna Chattopadhyay, Sophia I. Thomopoulos, Jose-Luis Ambite, Paul M. Thompson, Greg Ver Steeg</span><br>
+          <span class="venue">EMBC 2025</span>
+        </li>
+
+        <li>
+          <span class="pub-title"><a href="https://arxiv.org/abs/2406.01913" target="_blank">Generating Synthetic Net Load Data with Physics-Informed Diffusion Models</a></span><br>
+          <span class="authors">Shaorong Zhang, Yuanbin Cheng, Nanpeng Yu</span><br>
+          <span class="venue">IEEE Transactions on Smart Grid, 2025</span>
+        </li>
+
+        <li>
+          <span class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S0306261925009833" target="_blank">Data-Driven Control, Optimization, and Decision-Making in Active Power Distribution Networks</a></span><br>
+          <span class="authors">Nanpeng Yu, Shaorong Zhang, Jingtao Qin, Patricia Hidalgo-Gonzalez, Roel Dobbe, Yang Liu, Anamika Dubey, Yubo Wang, John Dirkman, Haiwang Zhong, et al.</span><br>
+          <span class="venue">Applied Energy, Vol. 397, 126253, 2025 (Elsevier)</span>
+        </li>
+
+        <li>
+          <span class="pub-title"><a href="https://ieeexplore.ieee.org/document/10689132" target="_blank">Learning Power System Dynamics with Noisy Data Using Neural Ordinary Differential Equations</a></span><br>
+          <span class="authors">Shaorong Zhang, Koji Yamashita, Nanpeng Yu</span><br>
+          <span class="venue">IEEE PESGM 2024</span>
+        </li>
+
+        <li>
+          <span class="pub-title"><a href="https://ieeexplore.ieee.org/document/10252786" target="_blank">Learning Power System Dynamics with Nearly-Hamiltonian Neural Networks</a></span><br>
+          <span class="authors">Shaorong Zhang, Nanpeng Yu</span><br>
+          <span class="venue">IEEE PESGM 2023</span>
+        </li>
+
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Shaorong Zhang. Built with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
