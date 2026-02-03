@@ -33,7 +33,7 @@ a:hover { text-decoration: underline; }
   align-items: center;
 }
 .title h1 { margin: 0 0 6px; font-size: 48px; letter-spacing: -0.02em; }
-.subtitle, .meta { margin: 0; color: var(--muted); font-weight: 600; }
+ .meta { margin: 0; color: var(--muted); font-weight: 600; }
 .meta { margin-top: 8px; }
 .meta a { color: var(--text); opacity: .9; }
 .meta a:hover { color: var(--accent); }
@@ -88,4 +88,3 @@ ul { margin: 0; padding-left: 20px; }
 /* pubs stays block as before */
 .pubs li { display: block; }
 .pub-title { font-weight: 700; }
-.links a { margin-right: 10px; }
