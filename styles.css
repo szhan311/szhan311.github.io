@@ -1,10 +1,26 @@
-/* Minimal, elegant dark theme */
+/* Theme variables — dark (default) and light */
 :root {
   --bg: #0f1115;
   --card: #171a21;
   --text: #e5e7eb;
   --muted: #9ca3af;
   --accent: #60a5fa;
+  --border: #1e222b;
+  --card-border: #1f2430;
+  --body-text: #d2d6dd;
+  --shadow: 0 10px 30px rgba(0, 0, 0, .35);
+}
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --card: #f9fafb;
+  --text: #0f1115;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+  --card-border: #e5e7eb;
+  --body-text: #1f2937;
+  --shadow: 0 8px 24px rgba(0, 0, 0, .08);
 }
 
 * { box-sizing: border-box; }
@@ -22,7 +38,7 @@ a:hover { text-decoration: underline; }
 
 .site-header, .site-footer {
   padding: 56px 0;
-  border-block: 1px solid #1e222b;
+  border-block: 1px solid var(--border);
 }
 .site-footer { padding: 28px 0; color: var(--muted); font-size: 14px; }
 
@@ -34,26 +50,31 @@ a:hover { text-decoration: underline; }
 }
 .title h1 { margin: 0 0 6px; font-size: 48px; letter-spacing: -0.02em; }
  .meta { margin: 0; color: var(--muted); font-weight: 600; }
-.meta { margin-top: 8px; }
-.meta a { color: var(--text); opacity: .9; }
+.meta { margin-top: 8px; margin-bottom: 24px; }
+.meta a {
+  color: var(--text);
+  opacity: .9;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .meta a:hover { color: var(--accent); }
 
 .avatar img {
   width: 100%;
   border-radius: 20px;
-  border: 1px solid #222;
-  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
   display: block;
 }
 
 section {
   padding: 32px 0;
-  border-bottom: 1px solid #1e222b;
+  border-bottom: 1px solid var(--border);
 }
 section:last-child { border: none; padding-bottom: 64px; }
 
 h2 { font-size: 26px; margin: 0 0 12px; letter-spacing: .01em; }
-p, .authors, .venue { margin: 0 0 12px; color: #d2d6dd; }
+p, .authors, .venue { margin: 0 0 12px; color: var(--body-text); }
 ul { margin: 0; padding-left: 20px; }
 
 /* NEWS & PUBLICATIONS */
@@ -62,7 +83,7 @@ ul { margin: 0; padding-left: 20px; }
 
 .news li, .pubs li {
   background: var(--card);
-  border: 1px solid #1f2430;
+  border: 1px solid var(--card-border);
   border-radius: 14px;
   margin: 10px 0;
   padding: 14px;
@@ -88,3 +109,66 @@ ul { margin: 0; padding-left: 20px; }
 /* pubs stays block as before */
 .pubs li { display: block; }
 .pub-title { font-weight: 700; }
+
+/* Highlight my own name in author lists */
+.authors .me {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Subsection title (e.g., Manuscripts Under Review) */
+.subsection-title {
+  font-size: 18px;
+  margin: 24px 0 10px;
+  color: var(--text);
+  letter-spacing: .01em;
+}
+
+/* Venue badge — inline, eye-catching, per-venue colors */
+.venue-badge {
+  display: inline-block;
+  font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 5px;
+  margin-right: 10px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  background: #6b7280;
+  color: #ffffff;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.venue-badge.icml    { background: #8b5cf6; }   /* violet */
+.venue-badge.neurips { background: #2563eb; }   /* blue */
+.venue-badge.embc    { background: #0891b2; }   /* teal */
+.venue-badge.tsg     { background: #ea580c; }   /* orange */
+.venue-badge.energy  { background: #16a34a; }   /* green */
+.venue-badge.pesgm   { background: #db2777; }   /* pink */
+.venue-badge.review  { background: #6b7280; }   /* gray */
+
+/* Theme toggle button */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  box-shadow: var(--shadow);
+}
+.theme-toggle:hover {
+  border-color: var(--accent);
+  transform: scale(1.05);
+}
